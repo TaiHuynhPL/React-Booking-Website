@@ -1,0 +1,19 @@
+.loginregister {
+  display: flex;
+  gap: 18px;
+  color: #0071c2;
+}
+
+.login {
+  background-color: #fff;
+  padding: 4px 12px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.register {
+  background-color: #fff;
+  padding: 4px 12px;
+  text-align: center;
+  cursor: pointer;
+}

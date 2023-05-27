@@ -1,0 +1,27 @@
+.headerBackground {
+  background-color: #003580;
+  color: #fff;
+  padding: 24px 0;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 36px;
+  margin-bottom: 24px;
+}
+
+.link {
+  display: flex;
+  width: 152px;
+  height: 48px;
+  background-color: rgb(46, 109, 204);
+  margin-top: 24px;
+  margin-bottom: 64px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}

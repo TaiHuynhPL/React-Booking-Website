@@ -1,0 +1,21 @@
+.headerInputContentContainer {
+  display: flex;
+  gap: 72px;
+  justify-content: space-between;
+}
+
+.headerInputContentItem {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  color: #bbb;
+}
+
+.headerInputContentItem input {
+  color: #bbb;
+  border: hidden;
+  font-size: 18px;
+  width: 228px;
+  height: 32px;
+  outline: none;
+}

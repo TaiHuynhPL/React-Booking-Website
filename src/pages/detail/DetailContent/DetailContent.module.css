@@ -1,0 +1,115 @@
+.container {
+  width: 70%;
+  margin: 24px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name {
+  margin-bottom: 10px;
+}
+
+.address {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.icon {
+  margin-right: 8px;
+}
+
+.distance {
+  color: #0071c2;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.price {
+  color: rgb(0, 163, 0);
+  font-weight: 500;
+}
+
+.btn {
+  padding: 12px 24px;
+  background-color: #0071c2;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.imgs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+.img {
+  width: 100%;
+}
+
+.detail {
+  display: flex;
+  gap: 12px;
+}
+
+.detailDescription {
+  width: 75%;
+}
+
+.title {
+  font-size: 22px;
+  margin-bottom: 18px;
+}
+
+.description {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.detailPrice {
+  width: 25%;
+  background-color: rgb(130, 179, 247, 0.3);
+  padding: 16px 12px;
+}
+
+.detailPrice h4 {
+  color: #555;
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.detailPrice p {
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.detailPrice div {
+  font-size: 24px;
+  color: #555;
+}
+
+.detailPrice div span {
+  font-weight: 700;
+  color: #000;
+}
+
+.detailPrice button {
+  width: 100%;
+  background-color: #0071c2;
+  border: none;
+  padding: 10px 0;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 8px;
+  margin: 24px 0 8px;
+  cursor: pointer;
+}

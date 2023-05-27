@@ -1,0 +1,6 @@
+.contentContainer {
+  width: 70%;
+  margin: 24px auto;
+  display: flex;
+  gap: 24px;
+}

@@ -1,0 +1,7 @@
+.date {
+  position: absolute;
+  top: 70px;
+  left: 20%;
+  right: 20%;
+  z-index: 1;
+}

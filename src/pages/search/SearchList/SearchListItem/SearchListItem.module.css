@@ -1,0 +1,115 @@
+.container {
+  height: 220px;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.img {
+  width: 30%;
+  height: 100%;
+}
+
+.detail {
+  width: 50%;
+}
+
+.name {
+  color: #0071c2;
+  font-size: 22px;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.distance {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.tag {
+  display: inline-block;
+  background-color: green;
+  font-size: 14px;
+  padding: 4px 4px;
+  margin: 0 auto 12px;
+  color: #f1f1f1;
+  border-radius: 4px;
+}
+
+.description {
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.type {
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.freeCancel h4 {
+  color: green;
+  margin-bottom: 4px;
+}
+
+.freeCancel p {
+  color: rgb(0, 163, 0);
+  font-size: 13px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 25%;
+}
+
+.rate {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rate p {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.rate span {
+  display: inline-block;
+  font-weight: 600;
+  padding: 4px;
+  background-color: #003580;
+  color: #fff;
+}
+
+.price {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.priceNumber {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+.pricetaxes {
+  text-align: right;
+  font-size: 12px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.price button {
+  width: 100%;
+  padding: 12px 0;
+  margin-top: 12px;
+  background-color: #0071c2;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
